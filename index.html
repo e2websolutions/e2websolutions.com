@@ -1133,6 +1133,8 @@
           <div class="contact-right">
             <p class="contact-label">Email</p>
             <a href="mailto:info@e2websolutions.com" class="email-link">info@e2websolutions.com</a>
+            <p class="contact-label" style="margin-top:1.5rem;">Phone / Text</p>
+            <span id="e2-phone" class="email-link"></span>
             <p class="contact-note">Response within one business day.</p>
           </div>
         </div>
@@ -1148,6 +1150,20 @@
       </footer>
     </div>
   </div>
+
+  <script>
+    (function() {
+      var p = ['828','471','6511'].join('-');
+      var el = document.getElementById('e2-phone');
+      if (el) {
+        var a = document.createElement('a');
+        a.href = 'tel:+1' + p.replace(/-/g,'');
+        a.textContent = p;
+        a.className = 'email-link';
+        el.appendChild(a);
+      }
+    })();
+  </script>
 
   <script>
     const reveals = document.querySelectorAll('.reveal');
