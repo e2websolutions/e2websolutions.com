@@ -37,13 +37,17 @@ CTA: Get Your Free Audit
 
 When someone searches "plumber near me" or "electrician in Boone," you want your business to show up. If you don't have a Google Business Profile, you won't. We handle the full setup -- creation, verification, hours, photos, description, and category optimization -- so you appear on Google Maps and Search where your customers are already looking. One-time fee, $149-199. You own the profile when we're done.
 
+**Local Citations**
+
+Most customers don't just search Google. We submit your business to 10 top directories -- Yelp, Bing, Apple Maps, Facebook, Nextdoor, Alignable, and more -- with your name, address, phone, and photos consistent everywhere. One-time fee, $99-129. You own every listing when we're done.
+
 **1-Page Landing Page**
 
 A Google listing gets you found, but sometimes people want to see more before they call. We build a clean, mobile-friendly single page that tells customers who you are, what you do, and how to reach you. Custom design, custom domain, hosting and SSL included your first year. Nothing for you to manage or install. One-time fee, $449-599, with $79/year hosting after year one.
 
-**GBP + Landing Page Bundle**
+**Full Presence Bundle**
 
-Both services together, coordinated and launched at the same time. Your Google profile links straight to your landing page, your landing page reinforces everything on your profile. One point of contact, one project, done in days. $529 for founder's pricing -- a $170 savings over buying them separately.
+All three services together -- Google, 10 directories, and a landing page. Everything a local business needs to get found, coordinated and launched at once. One point of contact, one project, done in days. $599 founder's pricing -- saves $98 over buying separately.
 
 ---
 

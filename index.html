@@ -642,7 +642,7 @@
 
     .pricing-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       border: 1px solid var(--border);
       border-radius: 3px;
       overflow: hidden;
@@ -789,6 +789,14 @@
     .hosting-note strong { color: var(--ink); font-weight: 600; }
 
     /* ── RESPONSIVE ── */
+    @media (max-width: 1080px) and (min-width: 861px) {
+      .pricing-grid { grid-template-columns: repeat(2, 1fr); }
+      .pricing-card:nth-child(odd) { border-right: 1px solid var(--border); }
+      .pricing-card:nth-child(even) { border-right: none; }
+      .pricing-card { border-bottom: 1px solid var(--border); }
+      .pricing-card-featured { border-bottom: none; }
+    }
+
     @media (max-width: 860px) {
       .nav-links { display: none; }
 
@@ -954,7 +962,7 @@
       <p class="section-label reveal">What we do</p>
 
       <div class="services-intro">
-        <h2 class="reveal">Two services.<br>One clear goal.</h2>
+        <h2 class="reveal">Three services.<br>One clear goal.</h2>
         <p class="reveal reveal-d1">Most small businesses are invisible online — not because they're not good at what they do, but because they never had the time or the right help to get set up. That's exactly what we fix.</p>
       </div>
 
@@ -968,6 +976,13 @@
 
         <div class="service-item reveal reveal-d1">
           <p class="service-num">02</p>
+          <h3>Local Citations</h3>
+          <p>Most customers don't just search Google. We submit your business to 10 top directories — Yelp, Bing, Apple Maps, Facebook, Nextdoor, and more — with consistent info everywhere your name appears.</p>
+          <span class="service-badge">One-time setup</span>
+        </div>
+
+        <div class="service-item reveal reveal-d2">
+          <p class="service-num">03</p>
           <h3>1-Page Landing Page</h3>
           <p>A clean, mobile-friendly single page that tells customers who you are, what you do, and how to reach you. Nothing to manage on your end — hosted, live, and ready to go.</p>
           <span class="service-badge">First year hosting included</span>
@@ -1081,6 +1096,25 @@
 
         <div class="pricing-card reveal reveal-d1">
           <p class="service-num">02</p>
+          <h3>Local Citations</h3>
+          <p class="pricing-card-desc">Your business listed consistently across 10 top directories — Yelp, Bing, Apple Maps, Facebook, Nextdoor, and more.</p>
+          <ul class="pricing-includes">
+            <li>10 directory submissions</li>
+            <li>Consistent name, address & phone</li>
+            <li>Photos & description on each</li>
+            <li>You own every listing — full handoff</li>
+          </ul>
+          <div class="price-block">
+            <div class="price-row">
+              <span class="price-founder">$99</span>
+              <span class="price-regular">$129</span>
+            </div>
+            <p class="price-type">One-time</p>
+          </div>
+        </div>
+
+        <div class="pricing-card reveal reveal-d2">
+          <p class="service-num">03</p>
           <h3>1-Page Landing Page</h3>
           <p class="pricing-card-desc">A clean, single-page site — nothing to manage, nothing to install. Hosted and live with the first year included.</p>
           <ul class="pricing-includes">
@@ -1099,20 +1133,21 @@
           </div>
         </div>
 
-        <div class="pricing-card pricing-card-featured reveal reveal-d2">
+        <div class="pricing-card pricing-card-featured reveal reveal-d3">
           <p class="featured-label">Best value</p>
-          <h3>GBP + Landing Page</h3>
-          <p class="pricing-card-desc">Both services together — your business on Google and a clean page to send people to.</p>
+          <h3>Full Presence</h3>
+          <p class="pricing-card-desc">All three services together — Google, 10 directories, and a landing page. Everything a local business needs to get found.</p>
           <ul class="pricing-includes">
-            <li>Everything in both services</li>
-            <li>Coordinated setup & launch</li>
+            <li>Google Business Profile setup</li>
+            <li>10 directory submissions</li>
+            <li>1-page landing page</li>
             <li>First year hosting included</li>
             <li>Single point of contact</li>
           </ul>
           <div class="price-block">
             <div class="price-row">
-              <span class="price-founder">$529</span>
-              <span class="price-regular">$699</span>
+              <span class="price-founder">$599</span>
+              <span class="price-regular">$799</span>
             </div>
             <p class="price-type">One-time · $79/yr hosting after year one</p>
           </div>
