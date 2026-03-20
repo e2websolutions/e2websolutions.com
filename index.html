@@ -785,6 +785,22 @@
 
     .hosting-note strong { color: var(--ink); font-weight: 600; }
 
+    .demo-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--gold);
+      border-bottom: 1px solid rgba(201,136,58,0.35);
+      padding-bottom: 2px;
+      transition: gap 0.2s, border-color 0.2s;
+    }
+
+    .demo-link:hover { gap: 0.8rem; border-color: var(--gold); }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 1080px) and (min-width: 861px) {
       .pricing-grid { grid-template-columns: repeat(2, 1fr); }
@@ -979,6 +995,8 @@
           <h3>1-Page Landing Page</h3>
           <p>A clean, mobile-friendly single page that tells customers who you are, what you do, and how to reach you. Nothing to manage on your end — hosted, live, and ready to go.</p>
           <span class="service-badge">First year hosting included</span>
+          <br>
+          <a href="/demos/roofing/" target="_blank" rel="noopener" class="demo-link">See what your site could look like <span>→</span></a>
         </div>
       </div>
 
